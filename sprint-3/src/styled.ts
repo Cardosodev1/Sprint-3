@@ -10,6 +10,36 @@ export const HeaderMenu=styled.header`
     .header img {
         height: 60px;
     }
+
+    @media (max-width: 1024px) {
+        .header {
+            padding: 40px;
+        }
+
+        .header img {
+            height: 55px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .header {
+            padding: 30px;
+        }
+
+        .header img {
+            height: 50px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .header {
+            padding: 20px;
+        }
+
+        .header img {
+            height: 40px;
+        }
+    }
 `
 
 export const DescriptionMenu=styled.main`
@@ -53,6 +83,47 @@ export const DescriptionMenu=styled.main`
 
     .feature p {
         font-size: 16px;
+    }
+
+    @media (max-width: 1024px) {
+        .feature {
+            width: 90%;
+            padding: 40px;
+        }
+
+        .text {
+            font-size: 18px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .feature {
+            width: 95%;
+            padding: 15px;
+        }
+
+        .feature img {
+            height: 60px;
+        }
+
+        .text {
+            font-size: 16px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .feature {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .feature img {
+            height: 50px;
+        }
+
+        .text {
+            font-size: 14px;
+        }
     }
 `
 
@@ -111,6 +182,51 @@ export const SectionMenu=styled.main`
         border-radius: 5px;
         cursor: pointer;
     }
+
+    @media (max-width: 1024px) {
+        input,
+        select {
+            width: 75%;
+        }
+
+        .diagnostico,
+        .orcamentos,
+        .oficinas,
+        .agendamento {
+            width: 90%;
+            padding: 40px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        input,
+        select {
+            width: 85%;
+        }
+
+        .diagnostico,
+        .orcamentos,
+        .oficinas,
+        .agendamento {
+            width: 95%;
+            padding: 30px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        input,
+        select {
+            width: 95%;
+        }
+
+        .diagnostico,
+        .orcamentos,
+        .oficinas,
+        .agendamento {
+            width: 100%;
+            padding: 20px;
+        }
+    }
 `
 
 export const FooterMenu=styled.footer`
@@ -119,5 +235,24 @@ export const FooterMenu=styled.footer`
         text-align: center;
         color: white;
         padding: 40px;
+    }
+
+    @media (max-width: 1024px) {
+        .footer {
+            padding: 35px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .footer {
+            padding: 30px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .footer {
+            width: 100%;
+            padding: 20px;
+        }
     }
 `

@@ -8,7 +8,7 @@ export default function Description() {
         <DescriptionMenu>
             <div className="description"> 
                 <h1 className="title">O que é a <span>Auto Problems?</span></h1>
-                <p className="text">A Auto Problems é uma plataforma completa para soluções automotivas. Desenvolvemos este espaço para facilitar o acesso a diagnósticos precisos, orçamentos personalizados e a localização das oficinas da Porto Seguro mais próximas de você.</p>
+                <p className="text">A Auto Problems é uma plataforma completa para soluções automotivas. Desenvolvemos este espaço para facilitar o acesso a diagnósticos precisos, orçamentos personalizados, localização das oficinas da Porto Seguro mais próximas de você, agendar horários nas oficinas e comprar peças automotivas online.</p>
                 <div className="features">
                     <ul>
                         <li className="feature">
