@@ -2,6 +2,7 @@ import Description from "./components/Description"
 import Header from "./components/Header"
 import Section from "./components/Section"
 import Footer from "./components/Footer"
+import Container from "./components/Container"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Description/>
       <Section/>
+      <Container/>
       <Footer/>
     </>
   )

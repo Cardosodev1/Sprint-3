@@ -132,6 +132,7 @@ export const SectionMenu=styled.main`
         width: 85%;
         margin: auto;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     h2{
@@ -226,6 +227,76 @@ export const SectionMenu=styled.main`
             width: 100%;
             padding: 20px;
         }
+    }
+`
+
+export const ContainerMenu=styled.main`
+    .container {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    span {
+        color: #007bff; 
+    }
+
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .pecas {
+        padding: 30px;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .pecas-lista {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .peca-item {
+        width: calc(30% - 20px);
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    .peca-item img {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input {
+        width: 65%;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
     }
 `
 
