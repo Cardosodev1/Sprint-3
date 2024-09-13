@@ -1,6 +1,6 @@
 import { SectionMenu } from "../styled";
 
-export default function Content() {
+export default function Section() {
     return (
         <SectionMenu>
             <section className="content">

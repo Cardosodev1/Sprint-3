@@ -112,3 +112,12 @@ export const SectionMenu=styled.main`
         cursor: pointer;
     }
 `
+
+export const FooterMenu=styled.footer`
+    .footer {
+        background-color: #333;
+        text-align: center;
+        color: white;
+        padding: 40px;
+    }
+`
