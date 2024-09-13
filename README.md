@@ -13,7 +13,7 @@ agendem horários nas oficinas e comprem peças automotivas online.
 
 ## Requisitos de Sistema
 
-Para rodar este sistema localmente, você precisará ter o seguinte software instalado:
+Para rodar este sistema localmente, você precisará ter os seguintes software instalado:
 
 - [Node.js](https://nodejs.org/pt/)
 - [npm](https://www.npmjs.com/)
