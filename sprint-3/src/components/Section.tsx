@@ -16,6 +16,7 @@ export default function Section() {
                             <option value="Barulho na Suspensão">Barulho na Suspensão</option>
                             <option value="Dificuldade na Troca de Marchas">Dificuldade na Troca de Marchas</option>
                             <option value="Problema na Ignição">Problema na Ignição</option>
+                            <option value="Outro">Outro</option>
                         </select>
                         <button>Realizar Diagnóstico</button>
                     </form>
@@ -32,6 +33,7 @@ export default function Section() {
                             <option value="Reparo na Suspensão">Reparo na Suspensão</option>
                             <option value="Troca de Filtros">Troca de Filtros</option>
                             <option value="Verificação de Transmissão">Verificação de Transmissão</option>
+                            <option value="Outro">Outro</option>
                         </select>
                         <button>Solicitar Orçamentos</button>
                     </form>
