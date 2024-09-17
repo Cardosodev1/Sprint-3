@@ -298,6 +298,42 @@ export const ContainerMenu=styled.main`
         border: 1px solid #ccc;
         box-sizing: border-box;
     }
+
+    @media (max-width: 1024px) {
+        input {
+            width: 75%;
+        }
+
+        .pecas,
+        .peca-item {
+            width: 90%;
+            padding: 30px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        input {
+            width: 85%;
+        }
+
+        .pecas,
+        .peca-item {
+            width: 95%;
+            padding: 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        input {
+            width: 95%;
+        }
+
+        .pecas,
+        .peca-item {
+            width: 100%;
+            padding: 10px;
+        }
+    }
 `
 
 export const FooterMenu=styled.footer`
